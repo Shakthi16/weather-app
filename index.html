@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKYCAST - Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><img src="scatterted.png" alt="Weather Icon" class="weather-icon"> SKYCAST</h1>
+            <div class="search-container">
+                <input type="text" id="city-input" placeholder="Enter city name">
+                <button id="search-button">Search</button>
+            </div>
+        </header>
+        <main>
+            <div id="current-weather" class="weather-info">
+                <p class="placeholder-text">🔍 Enter a city and click "Search" to see the latest weather updates here.</p>
+            </div>
+            <div id="weather-conversation" class="weather-info">
+                <p class="placeholder-text">🗣️ Dynamic weather updates will appear here in a conversational style.</p>
+            </div>
+            <div id="forecast" class="forecast">
+                <p class="placeholder-text">📅 Check the forecast for upcoming days after searching for a city.</p>
+            </div>
+            <div id="solar-lunar-phases" class="weather-info">
+                <p class="placeholder-text">🌞🌜 Solar and lunar phase details will be displayed here.</p>
+            </div>
+            <div id="weather-alerts" class="weather-info">
+                <p class="placeholder-text">⚠️ Weather alerts will be displayed here.</p>
+            </div>
+            <div id="health-activity-suggestions" class="weather-info">
+                <p class="placeholder-text">🏃‍♂️ Health and activity suggestions based on current weather will be displayed here.</p>
+            </div>
+        </main>
+        <footer>
+            <p>Powered by OpenWeather API</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
